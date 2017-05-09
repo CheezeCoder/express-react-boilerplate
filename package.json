@@ -1,0 +1,29 @@
+{
+  "name": "express-react-boilerplate",
+  "version": "1.0.0",
+  "description": "An express react app boilerplate in its simplest form.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node %NODE_DEBUG_OPTION% server"
+  },
+  "author": "Christopher Shields",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "express": "^4.15.2",
+    "react-hot-loader": "^1.3.1",
+    "webpack": "^2.3.3",
+    "webpack-dev-middleware": "^1.10.1",
+    "webpack-hot-middleware": "^2.18.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.5.8",
+    "react": "^15.5.3",
+    "react-dom": "^15.5.3"
+  }
+}
